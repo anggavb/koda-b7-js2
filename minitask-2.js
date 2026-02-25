@@ -11,7 +11,6 @@ if (purchase) {
   }
 
   console.log(`Anda mendapatkan diskon sebesar ${discount * 100}% dengan total diskon sebesar Rp${purchase * discount}`);
-  return;
+} else {
+  console.log('Invalid purchase amount!')
 }
-
-console.log('Invalid purchase amount!')
